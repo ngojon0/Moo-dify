@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    background: url(images/sign_up_page_COLOR_MOOD_P.jpeg) no-repeat;
+    background-size: cover;
+    background-position: cover;
+}
+header{
+    text-align: center;
+    background-color: lightblue;
+    margin-top: -10px;
+}
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+input[type="radio"] {
+    display: none;
+}
+input[type="radio"]:checked + label {
+    border: 1px solid lightblue;
+}
+
+
+footer {
+    text-align: center;
+    background-color: black; 
+    color: white; 
+    padding: 10px; 
+    position: absolute; 
+    bottom: 0; 
+    width: 100%; 
+    font-size: 20px;  
+  }
